@@ -1,0 +1,351 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=ZCOOL+KuaiLe&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+    position: relative;
+    height: 6vw;
+}
+
+#logo{
+    font-family: 'Pacifico', cursive;
+    padding: 10px 30px;
+    font-size: 1.6vw;
+}
+
+#navbar::before{
+    content: "";
+    position: absolute;
+    background: url(../img/pexels-ray-piedra-1565982.jpg) no-repeat center center/cover;
+    height: 6vw;
+    width: 100%;
+    opacity: 80%;
+    z-index: -1;
+}
+
+#navbar ul{
+    display: flex;
+}
+
+#navbar ul li{
+    list-style: none;
+    font-size: 1.3vw;
+    padding: 20px;
+    font-family: 'Kaushan Script', cursive;
+}
+
+#navbar ul li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    display: block;
+    position: relative;
+    padding: 5px 15px;
+    border-radius: 10px;
+}
+
+#navbar ul li a:hover{
+    color: black;
+    background-color: rgb(255, 255, 255);
+}
+
+#section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 27vw;
+}
+
+#section::before{
+    content: "";
+    position: absolute;
+    background: url(../img/spaghetti-1932466_1920.jpg) no-repeat center center/cover;
+    height: 27vw;
+    width: 100%;
+    opacity: 70%;
+    z-index: -1;
+}
+
+#section h1{
+    font-size: 3.7vw;
+    color: rgb(0, 0, 0);
+    align-items: center;
+    margin-bottom: 1.5vw;
+    font-family: 'Kaushan Script', cursive;
+}
+
+#section p{
+    font-size: 1.2rem;
+    color: white;
+    font-family: cursive;
+    font-size: 1.3vw;
+}
+
+.btn{
+    padding: 5px 10px;
+    color:rgb(255, 255, 255);
+    border: 2px solid rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    margin-top: 2vw;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 1.2vw;
+}
+
+.btn:hover{
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+}
+
+.heading{
+    text-align: center;
+    padding: 10px;
+    font-size: 1.7vw;
+    font-family: 'Kaushan Script', cursive;
+}
+
+hr{
+    border: 0.14vw solid black;
+    background-color: black;
+}
+.boxes{
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.box{
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 15px;  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    padding: 15px 20px;
+}
+
+.box img{
+    border-radius: 30px;
+    height: 13vw;
+}
+
+.box h2{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 1.7vw; 
+}
+
+.box p{
+    font-family: cursive;
+    font-size: 1vw;
+    text-align: center;
+}
+
+.order{
+    height: 33vw;
+}
+
+.order::before{
+    content: "";
+    position: absolute;
+    background: url(../img/breakfast-1804457_1920.jpg) no-repeat center center/cover;
+    height: 33vw;
+    width: 100%;
+    opacity: 40%;
+    z-index: -1;
+}
+
+#cliants{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cliant{
+    height: 14vw;
+}
+
+.cliant img{
+    padding: 25px 35px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 5px 10px;
+    height: 9vw;
+}
+
+#contact::before{
+    content: "";
+    position: absolute;
+    background: url(../img/bg.jpg) no-repeat center center/cover;
+    height: 20vw;
+    width: 100%;
+    opacity: 60%;
+    z-index: -1;
+}
+
+#contact{
+    height: 20vw;
+}
+
+#my::before{
+    content: "";
+    position: absolute;
+    background: url(../img/contact.jpg) no-repeat center center/cover;
+    height: 30vw;
+    width: 100%;
+    opacity: 70%;
+    z-index: -1;
+}
+
+#my{
+    height: 30vw;
+}
+
+.forms{
+    width: 36vw;
+    margin: auto;
+}
+
+.form{
+    padding: 5px;
+}
+
+.form input,textarea{
+    width: 34vw;
+    padding: 5px 20px;
+    margin-top: 5px;
+    border: 2px solid black;
+    border-radius: 8px;
+    font-family: cursive;
+    font-size: 1.1vw;
+}
+
+.form label{
+    width: 34vw;
+    margin: 10px 0;
+    color: rgb(0, 0, 0);
+    font-size: 1.2vw;
+    font-family: cursive;
+}
+
+.foot{
+    text-align: center;
+    padding: 4px;
+    font-family: cursive;
+    background-color: black;
+    color: white;
+}
+
+@media only screen and (max-width: 1170px) {
+    body{
+        background-color: rgb(253, 253, 253);
+    }
+    
+    .boxes{
+        flex-direction: column;
+        margin-bottom: 1.6vh;
+    }
+    
+    .order{
+        height: auto;
+    }
+    
+    .box{
+        flex-direction: row;
+        margin: 1px;
+        padding: 1px;
+    }
+
+    .order::before {
+        height: 55vw;
+    }
+
+    .cliant img{
+        padding: 0;
+    }
+
+    #my::before{
+        height: 25vw;
+    }
+
+    #my{
+        height: 25vw;
+    }
+
+    .form{
+        padding: 0;
+    }
+
+    .form input, textarea {
+        padding: 0 0.4vw;
+        margin: 0;
+    }
+    .form label{
+        margin: 0px;
+    }
+    .foot{
+        font-size: 1.1vw;
+        padding: 2px;
+    }
+  }
+
+  @media only screen and (max-width: 900px) {
+    .forms{
+        display: inline-flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: auto;
+    }
+    .form input, textarea {
+        margin: 0 3px;
+    }
+    .form label{
+        margin: 3px;
+    }
+    .foot{
+        padding: 1px;
+    }
+  }
+  @media only screen and (max-width: 463px) {
+    #navbar{
+        flex-direction: column;
+        height: auto;
+    }
+
+    #logo{
+        padding: 0;
+    }
+
+    #navbar ul li {
+        padding: 0;
+    }
+
+    #navbar::before {
+        height: 9vw;
+    }
+
+    .heading{
+        padding: 0;
+    }
+  }
+
+  @media only screen and (max-width: 359px) {
+      #my{
+          height: auto;
+      }
+      .forms{
+          margin-bottom: 3px;
+      }
+      #my::before{
+          position: relative;
+      }
+  }

@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=ZCOOL+KuaiLe&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+#logo{
+    font-family: 'Pacifico', cursive;
+    padding: 10px 30px;
+    font-size: 1.5rem;
+}
+
+#navbar::before{
+    content: "";
+    position: absolute;
+    background-color: rgb(0, 0, 0);
+    height: 100%;
+    width: 100%;
+    opacity: 40%;
+    z-index: -1;
+}
+
+#navbar ul{
+    display: flex;
+}
+
+#navbar ul li{
+    list-style: none;
+    font-size: 1.1rem;
+    padding: 20px;
+    font-family: 'Kaushan Script', cursive;
+}
+
+#navbar ul li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    display: block;
+    position: relative;
+    padding: 5px 15px;
+    border-radius: 10px;
+}
+
+#navbar ul li a:hover{
+    color: black;
+    background-color: rgb(255, 255, 255);
+}
+
+#section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 58vh;
+}
+
+#section::before{
+    content: "";
+    position: absolute;
+    background: url(../img/spaghetti-1932466_1920.jpg) no-repeat center center/cover;
+    top: 0;
+    left: 0;
+    height: 70%;
+    width: 100%;
+    opacity: 70%;
+    z-index: -1;
+}
+
+
+#section h1{
+    font-size: 3.5rem;
+    color: rgb(0, 0, 0);
+    align-items: center;
+    margin-bottom: 20px;
+    font-family: 'Kaushan Script', cursive;
+}
+
+#section p{
+    font-size: 1.2rem;
+    color: white;
+    font-family: cursive;
+}
+
+.btn{
+    padding: 5px 10px;
+    color:rgb(255, 255, 255);
+    border: 2px solid rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    margin-top: 30px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 1.1rem;
+}
+
+.btn:hover{
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+}
+
+.heading{
+    text-align: center;
+    padding: 10px;
+    font-size: 1.7vw;
+    font-family: 'Kaushan Script', cursive;
+}
+
+hr{
+    border: 5px solid black;
+}
+.boxes{
+    width: 80vw;
+    display: flex;
+    margin: auto;
+}
+
+.box{
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 15px;  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    padding: 15px 20px;
+}
+
+.box img{
+    border-radius: 30px;
+}
+
+.box h2{
+    font-family: 'Kaushan Script', cursive; 
+}
+
+.box p{
+    font-family: cursive;
+    /* color: white; */
+    text-align: center;
+}
+
+.order{
+    height: 517px;
+}
+
+.order::before{
+    content: "";
+    position: absolute;
+    background: url(../img/breakfast-1804457_1920.jpg) no-repeat center center/cover;
+    height: 70%;
+    width: 100%;
+    opacity: 40%;
+    z-index: -1;
+}
+
+#cliants{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cliant img{
+    padding: 25px 35px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 5px 10px;
+}
+
+#contact::before{
+    content: "";
+    position: absolute;
+    background: url(../img/bg.jpg) no-repeat center center/cover;
+    height: 42%;
+    width: 100%;
+    opacity: 60%;
+    z-index: -1;
+}
+
+#contact{
+    height: 310px;
+}
+
+#my::before{
+    content: "";
+    position: absolute;
+    background: url(../img/contact.jpg) no-repeat center center/cover;
+    height: 58%;
+    width: 100%;
+    opacity: 70%;
+    z-index: -1;
+}
+
+#my{
+    height: 425px;
+}
+
+.forms{
+    width: 36vw;
+    margin: auto;
+}
+
+.form{
+    padding: 5px;
+}
+
+.form input,textarea{
+    width: 500px;
+    padding: 5px 20px;
+    margin-top: 5px;
+    border: 2px solid black;
+    border-radius: 8px;
+    font-family: cursive;
+}
+
+.form label{
+    width: 500px;
+    margin: 10px 0;
+    color: rgb(0, 0, 0);
+    font-size: 1.2rem;
+    font-family: cursive;
+}
+
+.foot{
+    text-align: center;
+    padding: 10px;
+    font-family: cursive;
+    background-color: black;
+    color: white;
+}
+
